@@ -6,6 +6,9 @@
   <!-- Fonts from Typekit. Thanks, guys. -->
   <script type="text/javascript" src="http://use.typekit.com/qhr5xpd.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          
 
   <style type="text/css" media="screen">
     body {
@@ -16,7 +19,7 @@
       line-height: 1.4em;
       margin: 0 auto;
       padding: 2em 0 2em 2em;
-      max-width: 780px;
+      max-width: 800px;
     }
 
     h1 {
@@ -35,36 +38,57 @@
     a:visited { border-color: #AAA; }
 
     img.ankur {
-      float: left;
       margin: 0 1em 3em 0;
     }
 
-    div.main {
-      float: left;
-        width: 200px;
-      padding-left: 3em;
+    div.header {
+        float:left;
     }
       
-      div.footer{
-      float:left;
-      }
+    div.main {
+        //padding-left: 3em;
+              clear: left;
+
+    }
+    div.footer{
+        float: left;
+        width: 300px;
+        padding-top: 4em;
+    }
 
     p {
       margin-top: 0;
     }
   </style>
+    
 </head>
-<body>
-  <h1 class="hello">
-    Hi, I'm <a href="mailto:ankurkhe@usc.edu" class="name">Ankur Khemani</a>
-  </h1>
 
-  <img src="images/ankur.jpeg" alt="Ankur Khemani" class="ankur" width="350" height="350">
+<body>
+    
+    <div class="header">
+        <h1>Hi, I'm <a href="mailto:ankurkhe@usc.edu" class="name">Ankur Khemani</a>
+        </h1>
+
+        <img src="images/ankur.jpeg" alt="Ankur Khemani" class="ankur" width="350" height="350">
+    
+    </div>
+    
+    
+    <div class="footer">
+           
+    <a href="https://twitter.com/ankurkhemani" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ankurkhemani</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+    <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/ankurkhemani" data-style="mega" data-count-href="/ankurkhemani/followers" data-count-api="/users/ankurkhemani#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @ankurkhemani on GitHub">Follow @ankurkhemani</a><!-- Place this tag right after the last button or just before your close body tag. -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+        
+        
+    </div>
 
   <div class="main">
-    <p>I am currently pursuing my Master's degree in Computer Science from University Of Southern California.</p>
+    <p>I am currently pursuing my Master's degree in Computer Science from <a href="http://www.usc.edu/" target="_blank">University Of Southern California</a>.</p>
 
-    <p> I am very passionate about front-end development (mobile and web), Android in particular. I have been developing Android applications for around 3 years and some of my apps are live on Google Play Store with over 2 million downloads.</p>
+    <p> I am very passionate about front-end development (mobile and web), Android in particular. I have been developing Android applications for around 3 years and some of <a href="https://play.google.com/store/apps/developer?id=MindGames" target="_blank">my apps</a> are live on Google Play Store with over 2 million downloads.</p>
 
 <!--
     <p>
@@ -85,15 +109,8 @@
 
   </div>
     
-    <div class="footer">
-    <a href="https://twitter.com/ankurkhemani" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ankurkhemani</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        
-        &nbsp;&nbsp;
-        
-    <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ankurkhemani" data-style="mega" data-count-href="/ankurkhemani/followers" data-count-api="/users/ankurkhemani#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @ankurkhemani on GitHub">Follow @ankurkhemani</a><!-- Place this tag right after the last button or just before your close body tag. -->
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-    </div>
+    
+    
 
 <!--
   <script type="text/javascript">
