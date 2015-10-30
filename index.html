@@ -38,6 +38,8 @@
 
     img.ankur {
       margin: 0 1em 3em 0;
+        width: 350px;
+        height: 350px;
     }
 
     div.header {
@@ -58,18 +60,50 @@
     p {
       margin-top: 0;
     }
+      
+
+    @media screen and (max-width: 420px) {
+        img.ankur {
+            margin: 0 auto;
+            width: 250px;
+            height: 250px;
+        }
+        
+        body {
+          color: #222;
+          font-family: "chaparral-pro", serif;
+          font-weight: 400;
+          font-size: 12pt;
+          line-height: 1 em;
+          margin: 0 auto;
+          padding: 1em 0 1em 1em;
+          max-width: 400px;
+        }
+        
+        div.main{
+            width: 250px;
+
+        }
+        
+        div.header {
+            
+            margin: 0 auto;
+        }
+    }
+
+      
   </style>
     
 </head>
 
 <body>
     
-    <h1>Hi, I'm <a href="mailto:ankurkhe@usc.edu" class="name">Ankur Khemani</a>
+    <h1>Hi, I'm <a href="https://www.linkedin.com/in/ankurkhemani" class="name" target="_blank">Ankur Khemani</a>
         </h1>
     
     <div class="header">
     
-        <img src="images/ankur.jpeg" alt="Ankur Khemani" class="ankur" width="350" height="350"> 
+        <img src="images/ankur.jpeg" alt="Ankur Khemani" class="ankur"> 
     
     </div>
     
